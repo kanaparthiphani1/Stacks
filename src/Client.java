@@ -38,7 +38,16 @@ public class Client {
 //
 //        System.out.println(Arrays.toString(pg.prevGreater()));
 
-        RainWaterTrapping rt = new RainWaterTrapping(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
-        System.out.println(rt.total());
+//        RainWaterTrapping rt = new RainWaterTrapping(new int[]{0,1,0,2,1,0,1,3,2,1,2,1});
+//        System.out.println(rt.total());
+//
+//        LargestRectInHist lr = new LargestRectInHist(new int[]{4,2,0,3,2,4,3,4});
+//        System.out.println(lr.findMaxArea());
+
+//        Celebrity cb =  new Celebrity(new int[][]{{0,1},{1,0}});
+//        System.out.println(cb.findCeleb());
+
+        MaxRectangles mr = new MaxRectangles(new int[][]{{0,1,1,0},{1,1,1,1},{1,1,1,1},{1,1,0,0}});
+        System.out.println(mr.findMaxRectArea());
     }
 }
